@@ -112,11 +112,11 @@
     const navigationButtons = document.createElement('div');
     navigationButtons.className = 'pdf__buttons';
 
-    const previousButton = document.createElement('button');
+    const previousButton = document.createElement('pbutton');
     previousButton.textContent = 'Previous Page';
     previousButton.id = 'previousButton';
 
-    const nextButton = document.createElement('button');
+    const nextButton = document.createElement('nbutton');
     nextButton.textContent = 'Next Page';
     nextButton.id = 'nextButton';
 
